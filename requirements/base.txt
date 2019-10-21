@@ -11,7 +11,7 @@ django-filebrowser==3.9.1
 django-grappelli==2.10.1
 django-haystack==2.6.1
 django-model-utils==3.0.0
-ecdsa==0.13
+ecdsa==0.13.3
 elasticsearch==5.4.0
 enum34==1.1.6
 Fabric==1.13.2
