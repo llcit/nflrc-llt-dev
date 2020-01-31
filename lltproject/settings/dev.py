@@ -1,6 +1,6 @@
 from .base import *
 
-ALLOWED_HOSTS += ['clt.developers.edu', 'localhost']
+ALLOWED_HOSTS += ['clt.developers.edu']
 
 SECRET_KEY = os.environ['SECRET_KEY']
 
@@ -12,9 +12,9 @@ STATIC_ROOT = '/Library/WebServer/Documents/static/nflrcllt'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'nflrc-slrp-dev-db',
-        'USER': 'djangodb_user',
-        'PASSWORD': 'postgres',
+        'NAME': 'nflrc-llt-dev-db',
+        'USER': 'richardmedina',
+        'PASSWORD': '1',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -23,8 +23,8 @@ DATABASES = {
 GOOGLE_RECAPTCHA_SECRET_KEY = os.environ['GOOGLE_RECAPTCHA_SECRET_KEY']
 
 
-MEDIA_ROOT = '/Library/WebServer/Documents/media/nflrcslrp'
-MEDIA_URL = 'http://localhost/media/nflrcslrp/'
+MEDIA_ROOT = '/Library/WebServer/Documents/media/nflrcllt'
+MEDIA_URL = 'http://localhost/media/nflrcllt/'
 
 
 # FILEBROWSER SETTINGS

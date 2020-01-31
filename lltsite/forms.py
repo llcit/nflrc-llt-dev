@@ -3,14 +3,13 @@ from django.forms import ModelForm, ValidationError
 from django import forms
 from django.contrib import messages
 
-from .models import Subscriber, ImpactFactor, StoryPage
+from .models import Subscriber, ImpactFactor
 
 
 class UpdateImpactFactorForm(ModelForm):
     class Meta:
         model = ImpactFactor
         fields = ['current_factor']
-
 
 class CreateSubscriberForm(ModelForm):
 
@@ -28,10 +27,3 @@ class CreateSubscriberForm(ModelForm):
         	'language_speak': forms.Select(),
         	'language_teach': forms.Select()
         }
-
-
-class PageUpdateForm(ModelForm):
-    
-    class Meta:
-        model = StoryPage
-        fields = ['title', 'content']

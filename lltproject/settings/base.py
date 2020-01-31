@@ -109,6 +109,4 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 GRAPPELLI_ADMIN_TITLE = 'LLT Site Administration'
 GRAPPELLI_INDEX_DASHBOARD = 'lltsite.dashboard.CustomIndexDashboard'
 
-LOGIN_URL = '/login'
-
 
