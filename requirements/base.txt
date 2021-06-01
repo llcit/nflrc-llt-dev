@@ -32,5 +32,5 @@ Sickle==0.6.2
 six==1.10.0
 sqlparse==0.2.3
 Unipath==1.1
-urllib3==1.22
+urllib3==1.26.5
 Whoosh==2.7.4
