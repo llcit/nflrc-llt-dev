@@ -20,7 +20,7 @@ ipaddress==1.0.18
 lxml==4.1.1
 olefile==0.44
 paramiko==2.1.2
-Pillow==4.2.1
+Pillow==9.0.1
 psycopg2==2.7.1
 pyasn1==0.2.3
 pycparser==2.17
